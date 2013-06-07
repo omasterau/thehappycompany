@@ -1,0 +1,9 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Mac junk files
+.DS_Store
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
